@@ -1,1 +1,2 @@
 deb https://sobkas.github.io experimental main
+deb-src https://sobkas.github.io experimental main
