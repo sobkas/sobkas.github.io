@@ -1,0 +1,66 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: solis.lan
+Label: solis.lan
+Codename: experimental
+Date: Mon, 27 Dec 2021 00:01:42 UTC
+Architectures: i386 amd64
+Components: main
+Description: Krzysztof Sobiecki repo
+MD5Sum:
+ f55c450842dbc6a6be893bdc03a0e54d 30551 main/binary-i386/Packages
+ 8e48a8e91c501263e9ce46b0f302ce5c 7797 main/binary-i386/Packages.gz
+ 9452d544c6242d210d713c2fabf0cb89 107 main/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-i386/Packages.gz
+ 3c96b886a5e653b5b019ca012861169d 30641 main/binary-amd64/Packages
+ 86682b2b5d12d96ff6ab5807bb28bb52 7796 main/binary-amd64/Packages.gz
+ df9b0e079ee1b30d177027433ca35ee3 108 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
+ 0d85ce23a0f288de05e2485143fdf3b1 4937 main/source/Sources
+ 1cc1d7ca6d95b606609a5de8b2039f5c 1561 main/source/Sources.gz
+ 116f8f8a0bea7ce692892abbad6b7209 109 main/source/Release
+SHA1:
+ 7e6f9008744d9dca73a374da4fdb8076e976e2a9 30551 main/binary-i386/Packages
+ 99f58ec4c0a0f442bcae4d5b7b76251c93372f59 7797 main/binary-i386/Packages.gz
+ 3eec5540230399d20e8303ad0db6b19696a43aad 107 main/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-i386/Packages.gz
+ fcd428ddfa63f4b1f305dd3278aa890d1c79d62d 30641 main/binary-amd64/Packages
+ 1715be534ca62b160b4845b58177a04cf1defe30 7796 main/binary-amd64/Packages.gz
+ 4fc6a617434724b751959edda6977df9e961d47d 108 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
+ f532d95782d6da3291b42b9f1e7a3ed990b9f345 4937 main/source/Sources
+ 90dc1ef6eec3b449191f262f7bb92809a9f58b98 1561 main/source/Sources.gz
+ 73aba2341faff80b44d5ae36acb8d3b934ba7a2e 109 main/source/Release
+SHA256:
+ 65bcafcb6dcf00757f521b9126c471d6254b7b2f952e552e90bfd43c73d98377 30551 main/binary-i386/Packages
+ c89c2a0d4c2a74e49e85589f546e949b491416e9b7a7054591c11ea998ad4d61 7797 main/binary-i386/Packages.gz
+ 4e19c2c6e99f3897fccae06b4547e656ba0e40f8da7db627f4a9e65c87414d48 107 main/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-i386/Packages.gz
+ babe020406b177b2f68fb5c747adcc7ad4b97b205f092ae6dfee3ecef0d4103d 30641 main/binary-amd64/Packages
+ 1e2e8c068ca40f54b8929454dcd602275e49f1e6cf24e104837eb965ac409097 7796 main/binary-amd64/Packages.gz
+ 0a9713cb94fea4e8eacbad3fbd2a9fd9435322e2eef4917af0dfc4ec729b50ec 108 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
+ f10d70491708cc6ac938fae8322df1899fd14c51e652439b7cb8af147d8cf9ce 4937 main/source/Sources
+ 1fd0966568f95b6fe5df95060fecf6aa5916d1e317b984be210bf8c4f5e259f6 1561 main/source/Sources.gz
+ f6555817b58333fccc82754b701579cb3741049c58806e7a07302ea395d530a6 109 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEVmfo/tuZ3csd8uZUI/kWTnyrqHEFAmHJAmYACgkQI/kWTnyr
+qHEPvQwAiRvr5O6jBM9AiqSN4r88r8DGr7KGfdCcB8qn2GtVtWVdSYjLqMMl48KV
+tiplfKQimBCGPgAorFlsAUtdVNH+gvavMUlQCoHVLlVlZv1i3tuYXyG182qqZY3Z
+uRqeUwA1k7W5vxtGMuosce69+rqSXLmH5voMzRrPAOlC89UV72lBd5270ey8Zp8y
+qRiio4pwuAkSsp3nkxyTkqa/YQM2z17vYWMr49ZqW0qCyhGt+H+UgIhCo+Y6O22o
+Bi0KMyJAAiUxEfWqBZjtucbPKA++HFM5X/R2SCGrRK7zX6GE2FuX1eEs8eCRsQE/
+pP1B8xdJYIk2HIMWfVPT46bZes+3Leq83htpYwgiEOktACMAZgKfl9YWhahuAeOr
+vkNwi0ffgK6Dy5l0Eu/Gfl4EReE2EwIa17nBjrH6wIKYp1vjcqmH0z4OrB/H2INn
+l1d+GjmUW4AqIWCLedvl3VXgbILItfO5QH363dECJooKa3EMMkUcWerMvkxGg2qO
+yibXJu3f
+=ghlO
+-----END PGP SIGNATURE-----
