@@ -496,6 +496,200 @@ Description: Mesa Off-screen rendering extension -- development files
  .
  For more information on OSmesa see the libosmesa6 package.
 
+Package: libvkd3d-dev
+Source: vkd3d
+Version: 1.2-6.1
+Architecture: amd64
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 1039
+Depends: libvkd3d1 (= 1.2-6.1), libvkd3d-utils1 (= 1.2-6.1), libvkd3d-shader1 (= 1.2-6.1), libvkd3d-headers (= 1.2-6.1)
+Suggests: libvkd3d-doc (= 1.2-6.1)
+Multi-Arch: same
+Homepage: http://www.winehq.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/v/vkd3d/libvkd3d-dev_1.2-6.1_amd64.deb
+Size: 221816
+SHA256: ab00989e0a8b915cf812ac446eea6c43946a8f02dfbd283abc1159cbb72115a2
+SHA1: 15bc2551585003a689c6d6ec7d0d9a3693fea79f
+MD5sum: 8d99f1730083372f4bd71182a61e8b88
+Description: Direct3D 12 to Vulkan translation - development files
+ 3D graphics library that provides an API similar to Direct3D 12 built on top
+ of the Vulkan library.
+ .
+ This package provides development files.
+
+Package: libvkd3d-doc
+Source: vkd3d
+Version: 1.2-6.1
+Architecture: all
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 2113
+Breaks: libvkd3d-dev (<< 1.2-5)
+Replaces: libvkd3d-dev (<< 1.2-5)
+Multi-Arch: foreign
+Homepage: http://www.winehq.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/v/vkd3d/libvkd3d-doc_1.2-6.1_all.deb
+Size: 796140
+SHA256: 56e59732675ee08aa30b05dc1061eb26b9ea179b272c19f48361a2ef13cb569f
+SHA1: c78bf145452dacfe5839cf79020d67a28d70652d
+MD5sum: bf850cbc37caae1d18c694f0a58c9b67
+Description: Direct3D 12 to Vulkan translation - documentation
+ 3D graphics library that provides an API similar to Direct3D 12 built on top
+ of the Vulkan library.
+ .
+ This package provides documentation for vkd3d.
+
+Package: libvkd3d-headers
+Source: vkd3d
+Version: 1.2-6.1
+Architecture: all
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 602
+Recommends: libvkd3d-dev
+Breaks: libvkd3d-dev (<< 1.2-4)
+Replaces: libvkd3d-dev (<< 1.2-4)
+Multi-Arch: foreign
+Homepage: http://www.winehq.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/v/vkd3d/libvkd3d-headers_1.2-6.1_all.deb
+Size: 56512
+SHA256: 388d38c0d6d3545dbe828192cdfa97b3c2b5c3ee829470b0ab4aac6f8cf25a52
+SHA1: 343434d662cbe27d7a2d4906df313d4f7ae754ca
+MD5sum: ae999bd5718673b644eb80220cc105c6
+Description: Direct3D 12 to Vulkan translation - header files
+ 3D graphics library that provides an API similar to Direct3D 12 built on top
+ of the Vulkan library.
+ .
+ This package provides the header files used to build applications using vkd3d.
+
+Package: libvkd3d-shader1
+Source: vkd3d
+Version: 1.2-6.1
+Architecture: amd64
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 258
+Depends: libc6 (>= 2.14)
+Recommends: vkd3d-compiler
+Multi-Arch: same
+Homepage: http://www.winehq.org
+Priority: optional
+Section: libs
+Filename: pool/main/v/vkd3d/libvkd3d-shader1_1.2-6.1_amd64.deb
+Size: 93696
+SHA256: f59add88aec009c5189fe13f0eee43e00205ade32c11a54653bd07c0b0e0722d
+SHA1: e0cb17e193b1577f68bf525f6415e7ff6e653318
+MD5sum: 0fd528f18b7f95a5be809bc15db160c1
+Description: Direct3D 12 to Vulkan translation - shader library
+ 3D graphics library that provides an API similar to Direct3D 12 built on top
+ of the Vulkan library.
+ .
+ This package provides vkd3d's shader library.
+
+Package: libvkd3d-shader1-dbgsym
+Source: vkd3d
+Version: 1.2-6.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 463
+Depends: libvkd3d-shader1 (= 1.2-6.1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/v/vkd3d/libvkd3d-shader1-dbgsym_1.2-6.1_amd64.deb
+Size: 441728
+SHA256: c3f249d618e2f377c08b9847f3744d6c125caf412271a1b868e55ef54aef98a6
+SHA1: 1f1e0b632317ad1dce6885c9a70f4267581c2746
+MD5sum: 435f4275c40e3938984a53fd3672bd87
+Description: debug symbols for libvkd3d-shader1
+Build-Ids: 159146f6bb4a2dffc8e4975a492e452c75329365
+
+Package: libvkd3d-utils1
+Source: vkd3d
+Version: 1.2-6.1
+Architecture: amd64
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 50
+Depends: libc6 (>= 2.4), libvkd3d1 (>= 1.2)
+Multi-Arch: same
+Homepage: http://www.winehq.org
+Priority: optional
+Section: libs
+Filename: pool/main/v/vkd3d/libvkd3d-utils1_1.2-6.1_amd64.deb
+Size: 15168
+SHA256: d2a0665a320db150e6cc7967065a10baf88375934829f6a72bafce0be0f1373c
+SHA1: e85897119bd9b41d5badd775bfd67d276d09a165
+MD5sum: 38b45fe5ff9fa2e2188e26eb9f4afbf4
+Description: Direct3D 12 to Vulkan translation - utilities library
+ 3D graphics library that provides an API similar to Direct3D 12 built on top
+ of the Vulkan library.
+ .
+ This package provides vkd3d's utilities library.
+
+Package: libvkd3d-utils1-dbgsym
+Source: vkd3d
+Version: 1.2-6.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 39
+Depends: libvkd3d-utils1 (= 1.2-6.1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/v/vkd3d/libvkd3d-utils1-dbgsym_1.2-6.1_amd64.deb
+Size: 24288
+SHA256: 8f7f4ec41ca42d52da844b3c3ea95cd1cc6ffecb92e6c09e8387d1f7bb2b848a
+SHA1: 0ea5e62c8dbae2fad94acefbe1b2dd7e7b9bb5e3
+MD5sum: 63d5922da06d8bb9226870b95ffa63d5
+Description: debug symbols for libvkd3d-utils1
+Build-Ids: 83a8b3dba90251505848ee461e039a32bdfb0f7c
+
+Package: libvkd3d1
+Source: vkd3d
+Version: 1.2-6.1
+Architecture: amd64
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 386
+Depends: libvulkan1 (>= 1.1.70), libc6 (>= 2.34), libvkd3d-shader1 (>= 1.2), mesa-vulkan-drivers (<< 21)
+Multi-Arch: same
+Homepage: http://www.winehq.org
+Priority: optional
+Section: libs
+Filename: pool/main/v/vkd3d/libvkd3d1_1.2-6.1_amd64.deb
+Size: 113212
+SHA256: 7d8429af47470a93617aa32c3ead0181a62c2342e1e063cf2dd6ed3606b72035
+SHA1: 724971f6231e1a9784119620d658396bfec45691
+MD5sum: 544aeb5301072c26ff5986bdad25b065
+Description: Direct3D 12 to Vulkan translation - library
+ 3D graphics library that provides an API similar to Direct3D 12 built on top
+ of the Vulkan library.
+ .
+ This package provides vkd3d's core library.
+
+Package: libvkd3d1-dbgsym
+Source: vkd3d
+Version: 1.2-6.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 468
+Depends: libvkd3d1 (= 1.2-6.1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/v/vkd3d/libvkd3d1-dbgsym_1.2-6.1_amd64.deb
+Size: 428200
+SHA256: 0e84b52456e4b5a9509e2cb9502ee1017e563f74df5b13afc7b9eb567293c8aa
+SHA1: c6960963ffe04e4a16c1a90a30897147b0f4f9fa
+MD5sum: 719af6e7dd235cba72833b2f3ea2fe31
+Description: debug symbols for libvkd3d1
+Build-Ids: 445465999890e3241503188d31ae590483cbc1ed
+
 Package: libwayland-egl1-mesa
 Source: mesa
 Version: 22.0.0+git-1
@@ -775,4 +969,84 @@ SHA1: a31a23f2d078529f98735fef2ba6a753e7884f33
 MD5sum: 16c4ae2944001fb3d400ad1b95cc56b7
 Description: debug symbols for mesa-vulkan-drivers
 Build-Ids: 06a508544635fa92e3a7ee62e16ad15eab4c24e1 1920d17bc0c7346bb1061900eadddf8d34379170 8a199c72f28dc092ad1f249709e934ed852fd469 da5edd75adb86a725fe4742898ac5876825e1ad2 eefb4dc37f9a3a42fc844467cc392264e115608a
+
+Package: vkd3d-compiler
+Source: vkd3d
+Version: 1.2-6.1
+Architecture: amd64
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 40
+Depends: libc6 (>= 2.34), libvkd3d-shader1 (>= 1.2)
+Breaks: libvkd3d-dev (<< 1.2-4)
+Replaces: libvkd3d-dev (<< 1.2-4)
+Homepage: http://www.winehq.org
+Priority: optional
+Section: devel
+Filename: pool/main/v/vkd3d/vkd3d-compiler_1.2-6.1_amd64.deb
+Size: 14112
+SHA256: 9df68772201311905a00596b56bc14de51063e735401f51ee4cd651e9cf07ab1
+SHA1: 8db444c11271207d6b5553f9b390012b0133b61e
+MD5sum: 6ee4c513c792ded69c3a2596e0068158
+Description: Direct3D 12 to Vulkan translation - shader compiler
+ 3D graphics library that provides an API similar to Direct3D 12 built on top
+ of the Vulkan library.
+ .
+ This package provides a compiler for vulkan shader programs.
+
+Package: vkd3d-compiler-dbgsym
+Source: vkd3d
+Version: 1.2-6.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 28
+Depends: vkd3d-compiler (= 1.2-6.1)
+Priority: optional
+Section: debug
+Filename: pool/main/v/vkd3d/vkd3d-compiler-dbgsym_1.2-6.1_amd64.deb
+Size: 14076
+SHA256: 34068be5de7e4afc4d5630009b6ddbddd5caf984285470e60ed0455120a1ee40
+SHA1: 2aa5cb4475407e81761ca1afc246d8bdc5440344
+MD5sum: ef6747dd30118b5eff55b604f631aa01
+Description: debug symbols for vkd3d-compiler
+Build-Ids: 1a96012ab772d0e4c7ca4b9ca0ea4363928c99a3
+
+Package: vkd3d-demos
+Source: vkd3d
+Version: 1.2-6.1
+Architecture: amd64
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 86
+Depends: libc6 (>= 2.34), libvkd3d-utils1 (>= 1.2), libvkd3d1 (>= 1.0), libvulkan1 (>= 1.2.131.2), libxcb-keysyms1 (>= 0.4.0), libxcb1
+Homepage: http://www.winehq.org
+Priority: optional
+Section: devel
+Filename: pool/main/v/vkd3d/vkd3d-demos_1.2-6.1_amd64.deb
+Size: 23856
+SHA256: 7d98d04fc0672ae6996e8befd807e482a290a071426e659343dfced0b0cd4e2c
+SHA1: b64a891976082162a4aaa54d502f955155fe9d31
+MD5sum: 67be5dc31f7b8c11af461a3d037660cb
+Description: Direct3D 12 to Vulkan translation - demos
+ 3D graphics library that provides an API similar to Direct3D 12 built on top
+ of the Vulkan library.
+ .
+ This package provides a few demos that use the vkd3d libraries.
+
+Package: vkd3d-demos-dbgsym
+Source: vkd3d
+Version: 1.2-6.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 147
+Depends: vkd3d-demos (= 1.2-6.1)
+Priority: optional
+Section: debug
+Filename: pool/main/v/vkd3d/vkd3d-demos-dbgsym_1.2-6.1_amd64.deb
+Size: 119824
+SHA256: 622ff949a54909e37521e366fcb0b08fc35d83a11fa19922f8a3b8099d9b75fb
+SHA1: 010568510f18ef7b580404d408c9411d6d8f77c4
+MD5sum: 137bc0ab3fb363a5b005a010a7b448cf
+Description: debug symbols for vkd3d-demos
+Build-Ids: 09dcffc7e7f9096ea9b590b1b29eed1da1f41e92 4dbb3777639f27d8e416cd766b62ac93fa0b1f27
 
