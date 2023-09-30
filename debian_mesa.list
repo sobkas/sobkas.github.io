@@ -1,0 +1,2 @@
+deb https://sobkas.github.io/mesa experimental main
+deb-src https://sobkas.github.io/mesa experimental main

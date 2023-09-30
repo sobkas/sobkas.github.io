@@ -1,0 +1,59 @@
+Package: openxray
+Version: 1.6.02-17
+Architecture: amd64
+Maintainer: lya Orlov <eagleivg@mail.ru>
+Installed-Size: 58774
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.4), libglew2.2 (>= 2.2.0-5), libjpeg62-turbo (>= 1.3.1), liblzo2-2 (>= 2.02), libogg0 (>= 1.0rc3), libopenal1 (>= 1.14), libopengl0, libsdl2-2.0-0 (>= 2.0.16), libstdc++6 (>= 5.2), libtheora0 (>= 0.0.0.alpha7.dfsg), libvorbisfile3 (>= 1.1.2), openxray-data (= 1.6.02-17)
+Multi-Arch: foreign
+Homepage: https://github.com/OpenXRay/xray-16
+Priority: optional
+Section: games
+Filename: pool/main/o/openxray/openxray_1.6.02-17_amd64.deb
+Size: 10336632
+SHA512: e88fa5b7c16a595400f8ab78c29345530371e87f69f16d8d9ecbf672e3804ee05535597af6f4d02bed5026229664dd1a18ca142e21a0b53e623e07b43531f0ca
+SHA256: 672ce3b63976e7a46600abb0fda57a27b085642fd6c50a31f3342e382ee1c0d7
+SHA1: 94061e1120d8f91da8cf8a9ed66edb4933c83297
+MD5sum: 428e85a7a5098652e1218c118f626ced
+Description: X-Ray Engine 1.6 expansion
+ X-Ray Engine sources based on version 1.6.02. The original engine is used in S.T.A.L.K.E.R.: Call of Pripyat game released by GSC Game World.
+
+Package: openxray-data
+Source: openxray
+Version: 1.6.02-17
+Architecture: all
+Maintainer: lya Orlov <eagleivg@mail.ru>
+Installed-Size: 2550
+Multi-Arch: foreign
+Homepage: https://github.com/OpenXRay/xray-16
+Priority: optional
+Section: games
+Filename: pool/main/o/openxray/openxray-data_1.6.02-17_all.deb
+Size: 277504
+SHA512: 14a66c56561aedc8001e0bab3959bf2132ce0bf3f216ba1f23630cdee54701579206ca2d1dec01f07864901c9e724939071e1d254e3814797d5321e51c5a2648
+SHA256: 834ce67aa88be0610d673bc9bd6fb7d52676ff1d59b85d04a39946e45035bc5f
+SHA1: e6166fddac616ee0be2fba5e84c47b62259496fa
+MD5sum: 61347a39a753634889e55709fb55aaaf
+Description: X-Ray Engine data files (modules, templates and documentation)
+ X-Ray Engine sources based on version 1.6.02. The original engine is used in S.T.A.L.K.E.R.: Call of Pripyat game released by GSC Game World.
+ .
+ This package provides openxray architecture independent data files (modules, templates, documentation etc.). Unless you have openxray installed, you probably do not need this package.
+
+Package: openxray-dbgsym
+Source: openxray
+Version: 1.6.02-17
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: lya Orlov <eagleivg@mail.ru>
+Installed-Size: 281312
+Depends: openxray (= 1.6.02-17)
+Priority: optional
+Section: debug
+Filename: pool/main/o/openxray/openxray-dbgsym_1.6.02-17_amd64.deb
+Size: 272544240
+SHA512: 9abc90d76ec7b767f62d7414541f1cc7b1f8c0150b8a2a60dc4406ec50abe49494b7d996fd8f627bdc7880a9d9a0223cf607690ebf307cb955ac7b8b67a0256a
+SHA256: f1775609b7f8f2920f32d7eaed6c0d8b97aafc788aa9e155726facefabe2deba
+SHA1: 0b4c45045e7731b107d4b9b226363d98b8592c3a
+MD5sum: 7fd8467c074c79152653b12014d6152a
+Description: debug symbols for openxray
+Build-Ids: 03adece1a0fc5e962ee45ef101acd72670194097 0b02c431c4b2e6ea04699ef631adc93feb35bc1e 245a71cd6ebe1d805b8c82196e9515f3d86c7368 350ae598536a97603704d68eb7a0e0ce5e341232 55659f7853842cf5393a05dbf3068a2a97c9d331 5b209c580a5197631e332a30c64f9eb4440e535e 725af194e494dd94f2c7eed72f072fd0780f1fc2 784873e15a575c0b696087a48cfc09daeb431f83 912c2524d221a25bc780d8f580b8f5608f70b459 adc3a0a0e9a02769223a4dced1b24ffd4ef0f2d5 b65be3978086d549491b4722ac4e61f43eafc399 babd737a9d8f89f544486ebade4a0c0e72c77895 c0564cc25a19b33309c85b809c190dad07637ec2 d985c259f943dfc5d65d890b02718559594b3adf f414880897856e268a0ed02ae92ce3a108bc1af1
+
